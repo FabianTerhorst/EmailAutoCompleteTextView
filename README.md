@@ -28,7 +28,8 @@ For the basic usage, you need to add `IntegrationPreference` into your preferenc
 ```xml
   <com.tasomaniac.widget.EmailAutoCompleteLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    app:permissionText="custom checkbox text" >
 
     <AutoCompleteTextView
       android:layout_width="match_parent"
@@ -45,13 +46,13 @@ Download
 Dependency to just use `EmailAutoCompleteLayout`
 
 ```groovy
-compile 'com.tasomaniac:emailautocompletelayout:0.1'
+compile 'com.tasomaniac:emailautocompletetextview:0.1'
 ```
 
 Dependency to use with `TextInputLayout`
 
 ```groovy
-compile 'com.tasomaniac:emailautocompletelayout-design:0.1'
+compile 'com.tasomaniac:emailautocompletetextview-design:0.1'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
