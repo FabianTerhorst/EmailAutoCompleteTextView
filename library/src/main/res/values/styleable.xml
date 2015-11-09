@@ -2,5 +2,6 @@
 <resources>
     <declare-styleable name="EmailAutoCompleteLayout">
         <attr name="autoRememberTypedEmail" format="boolean" />
+        <attr name="permissionText" format="string" />
     </declare-styleable>
 </resources>

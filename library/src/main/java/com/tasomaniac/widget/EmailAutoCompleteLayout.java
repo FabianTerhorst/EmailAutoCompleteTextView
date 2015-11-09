@@ -62,7 +62,8 @@ public class EmailAutoCompleteLayout extends BaseEmailAutoCompleteLayout
         permissionPrimer = new CheckBox(context);
         permissionPrimer.setTextColor(0x8a000000);
         permissionPrimer.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
-        permissionPrimer.setText(context.getString(R.string.message_get_accounts_permission));
+        String permissionText = context.obtainStyledAttributes(attrs, R.styleable.EmailAutoCompleteLayout).getString(R.styleable.EmailAutoCompleteLayout_permissionText);
+        permissionPrimer.setText(permissionText != null ? permissionText : context.getString(R.string.message_get_accounts_permission));
         addView(permissionPrimer);
     }
 
