@@ -28,8 +28,7 @@ For the basic usage, you need to add `IntegrationPreference` into your preferenc
 ```xml
   <com.tasomaniac.widget.EmailAutoCompleteLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:permissionText="custom checkbox text" >
+    android:layout_height="wrap_content">
 
     <AutoCompleteTextView
       android:layout_width="match_parent"
