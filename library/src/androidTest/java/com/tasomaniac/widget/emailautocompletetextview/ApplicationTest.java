@@ -1,4 +1,4 @@
-package com.tasomaniac.emailautocompletetextview;
+package com.tasomaniac.widget.emailautocompletetextview;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
